@@ -1,0 +1,29 @@
+#search {
+    padding: 5px 7px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    box-sizing: border-box;
+    font-size: .85rem;
+}
+
+#search form {
+    display: flex;
+    justify-content: center;
+}
+#search form input {
+    border: 1px solid #ccc;
+    padding: 6px 9px;
+    font-size: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: .25rem
+}
+#search form button {
+    border-radius: 4px;
+    border: 1px solid #2f3542;
+    background-color: #2f3542;
+    color: #fff;
+}

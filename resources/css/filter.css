@@ -1,0 +1,29 @@
+#filter {
+    padding: 5px 7px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font-size: .85rem;
+}
+
+#filter a {
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: #747d8c;
+    color: #fff;
+    margin-right: .15rem;
+}
+
+#filter a.new {
+    background-color: #ffa502;
+}
+
+#filter a.completed.active {
+    background-color: #2ed573;
+}
+#filter a.incompleted.active {
+    background-color: #ff4757;
+}

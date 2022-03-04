@@ -1,0 +1,44 @@
+#todo-form .form-data {
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+#todo-form .form-data label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+#todo-form .form-data input,
+#todo-form .form-data textarea {
+    border: 1px solid #ccc;
+    padding: 9px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#todo-form button#submit {
+    background-color: #ff6348;
+    border: 0;
+    font-weight: 700;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+#errors {
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+#errors p {
+    color: red;
+}
+
+#success-msg {
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: #d5ffe2;
+    color: #2ed573;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
